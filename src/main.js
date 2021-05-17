@@ -13,7 +13,6 @@ Vue.config.productionTip = false
 import store from './store/index'
 import './assets/css/base.less'
 import VConsole from 'vconsole';
-Vue.prototype.Toast = Toast;
 Vue.prototype.baseUrl = baseUrl;
 import {
     ajaxGet,
